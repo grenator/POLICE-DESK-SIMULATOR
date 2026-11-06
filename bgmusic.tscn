@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://fmvnw1jlhigw"]
+
+[ext_resource type="AudioStream" uid="uid://bkcxf071i3ago" path="res://elijah_k-midnight-investigator-505108.mp3" id="1_p34rl"]
+
+[node name="Bgmusic" type="Node2D" unique_id=1342014159]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=684029500]
+stream = ExtResource("1_p34rl")
+autoplay = true
